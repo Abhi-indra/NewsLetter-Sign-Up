@@ -18,7 +18,6 @@ app.get("/",(req, res) => {
 
 //for sending the data to the server from the get request
 app.post("/",(req,res) => {
-
     const firstName = req.body.fname;
     const lastname = req.body.lname;
     const email = req.body.email;
@@ -41,12 +40,12 @@ app.post("/",(req,res) => {
 
     const options = {
         method: "POST",
-        auth: "abhishek:00dd6a332d4739374c32286dca76a0d1-us9"
+        auth: "abhishek:0df391982e9e61dde61ba27d97477902-us9"
     }
 
     const request = https.request(url, options, function(response){
-        console.log(response);
-        if(response.statuscode == 200){
+       
+        if(response.statusCode === 200){
             res.sendFile(__dirname + "/success.html");
         }else{
             res.sendFile(__dirname + "/failure.html");
