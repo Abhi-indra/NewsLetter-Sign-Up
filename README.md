@@ -12,7 +12,7 @@ For creating the API key :-
 - click on extras and then on API keys
 - then create Your API key and use this API in this project.
 
-For Using The API Key you can follow the Video :-
+Video :-
 
 https://user-images.githubusercontent.com/64760535/211182844-833827fc-427b-4e59-9f92-48fce41f9ad1.mp4
 
